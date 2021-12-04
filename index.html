@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Night Drive</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <video autoplay muted loop id="myVideo">
+    <source src="drive.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+    <div id="MyClockDisplay" onload="showTime()">
+    You've been driving for
+    00:00:00
+    </div>
+  </div>
+  <embed src="nightcall.mp3" autostart="True" loop="True" autoplay="True"></embed>
+  <script src="app.js"></script>
+</body>
+</html>
